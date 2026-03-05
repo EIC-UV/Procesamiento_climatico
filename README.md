@@ -1,4 +1,4 @@
-[![Sync fork with upstream](https://github.com/EIC-UV/Procesamiento_climatico/actions/workflows/sync-upstream.yml/badge.svg)](https://github.com/EIC-UV/Procesamiento_climatico/actions/workflows/sync-upstream.yml)
+![Sync status](https://github.com/EIC-UV/Procesamiento_climatico/actions/workflows/sync-upstream.yml/badge.svg)
 
 # Extracción de Series Climáticas CR2MET v2.5 por Subcuenca
 
