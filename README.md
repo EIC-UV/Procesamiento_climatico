@@ -1,3 +1,5 @@
+[![Sync fork with upstream](https://github.com/EIC-UV/Procesamiento_climatico/actions/workflows/sync-upstream.yml/badge.svg)](https://github.com/EIC-UV/Procesamiento_climatico/actions/workflows/sync-upstream.yml)
+
 # Extracción de Series Climáticas CR2MET v2.5 por Subcuenca
 
 **Script:** `CR2Met_bestday_extraccion_1959_2025_cr2met2_5.rmd`  
@@ -171,5 +173,4 @@ Este programa se distribuye con la esperanza de que sea útil, pero **sin ningun
 
 Texto completo de la licencia: https://www.gnu.org/licenses/gpl-3.0.html
 
-[![Sync fork with upstream](https://github.com/EIC-UV/Procesamiento_climatico/actions/workflows/sync-upstream.yml/badge.svg)](https://github.com/EIC-UV/Procesamiento_climatico/actions/workflows/sync-upstream.yml)
-``
+
