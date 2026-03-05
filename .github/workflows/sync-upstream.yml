@@ -22,11 +22,12 @@ jobs:
 
       - name: Pull upstream changes
         id: sync
-        uses: aormsby/Fork-Sync-With-Upstream-action@v3
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
         with:
           upstream_repository: DavidPobleteUV/Procesamiento_climatico
           upstream_branch: main
           target_branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Show summary
         run: |
