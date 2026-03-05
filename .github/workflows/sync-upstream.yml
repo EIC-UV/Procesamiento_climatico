@@ -2,8 +2,7 @@ name: Sync fork with upstream
 
 on:
   schedule:
-    # Corre los lunes y jueves 06:17 (Chile, GMT-3) ≈ 09:17 UTC
-    - cron: "17 9 * * 1,4"
+    - cron: "0 11 * * 1,4"   # Lunes y jueves 11:00 UTC = 08:00 Chile
   workflow_dispatch:
 
 permissions:
@@ -22,7 +21,7 @@ jobs:
 
       - name: Pull upstream changes
         id: sync
-        uses: aormsby/Fork-Sync-With-Upstream-action@v3
+        uses: aormsby/Fork-Sync-With-Upstream-action@main
         with:
           upstream_repository: DavidPobleteUV/Procesamiento_climatico
           upstream_branch: main
