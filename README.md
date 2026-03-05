@@ -170,3 +170,6 @@ Este programa se distribuye con la esperanza de que sea útil, pero **sin ningun
 **Condición clave:** cualquier trabajo derivado que se distribuya públicamente debe hacerse bajo esta misma licencia GPL v3, garantizando que el código fuente modificado permanezca abierto.
 
 Texto completo de la licencia: https://www.gnu.org/licenses/gpl-3.0.html
+
+[![Sync fork with upstream](https://github.com/EIC-UV/Procesamiento_climatico/actions/workflows/sync-upstream.yml/badge.svg)](https://github.com/EIC-UV/Procesamiento_climatico/actions/workflows/sync-upstream.yml)
+``
